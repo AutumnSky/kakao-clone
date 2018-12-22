@@ -1,0 +1,37 @@
+.find .find__options {
+    background-color: #eeeeee;
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+
+.find__options .find__option {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #523737;
+}
+
+.find__option i {
+    margin-bottom: 8px;
+}
+
+.find__option .find__option-title {
+    font-size: 14px;
+}
+
+.find__recommended .find__recommended-title {
+    border-bottom: 1px solid #ebebeb;
+    color: #b4b4b4;
+    font-size: 12px;
+    padding: 8px 10px;
+}
+
+.find__recommended .find__recommended-none {
+    border-bottom: 1px solid #ebebeb;
+    color: #b4b4b4;
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 14px;
+}
