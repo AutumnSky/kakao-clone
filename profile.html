@@ -11,57 +11,60 @@
   <title>Chat</title>
 </head>
 
-<body>
-  <div class="header__top">
-    <div class="header__column">
-      <!-- plane icon -->
-      <i class="fas fa-plane"></i>
-      <!-- wifi icon -->
-      <i class="fas fa-wifi"></i>
+<body class="profile-body">
+  <header class="top-header profile-header">
+    <div class="header__top">
+      <div class="header__column">
+        <!-- plane icon -->
+        <i class="fas fa-plane"></i>
+        <!-- wifi icon -->
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="header__column"><span class="header__time">18:38</span></div>
+      <div class="header__column">
+        <!-- moon icon -->
+        <i class="fas fa-moon"></i>
+        <!-- bluetooth icon -->
+        <i class="fab fa-bluetooth-b"></i>
+        <span class="header_battery">
+          66%
+          <!-- battery icon -->
+          <i class="fas fa-battery-half"></i>
+        </span>
+      </div>
     </div>
-    <div class="header__column"><span class="header__time">18:38</span></div>
-    <div class="header__column">
-      <!-- moon icon -->
-      <i class="fas fa-moon"></i>
-      <!-- bluetooth icon -->
-      <i class="fab fa-bluetooth-b"></i>
-      <span class="header_battery">
-        66%
-        <!-- battery icon -->
-        <i class="fas fa-battery-half"></i>
-      </span>
+    <div class="header__bottom">
+      <div class="header__column">
+        <a href="index.html">
+          <i class="fa fa-times fa-lg"></i>
+        </a>
+      </div>
+      <div class="header__column"></div>
+      <div class="header__column"><i class="fa fa-user fa-lg"></i></div>
     </div>
-  </div>
-  <div class="header__bottom">
-    <div class="header__column">
-      <a href="index.html">
-        <i class="fa fa-times fa-lg"></i>
-      </a>
-    </div>
-    <div class="header__column"></div>
-    <div class="header__column"><i class="fa fa-user fa-lg"></i></div>
-  </div>
+  </header>
   <main class="profile">
-    <header class="profile__header">
+    <div class="profile__my-image">
       <img src="images/avatar.jpg" alt="avatar">
+    </div>
+    <div class="profile__content-container">
       <h3 class="profile__header-title">AutumnSky</h3>
-    </header>
-    <input type="text" placeholder="doingnone@gmail.com">
-    <div class="profile_actions">
-      <div class="profile__action">
-        <span class="profile__action-circle">
-          <i class="fas fa-comment fa-lg"></i>
-        </span>
-        <span class="profile__action-title">My Chatroom</span>
-      </div>
-      <div class="profile__action">
-        <span class="profile__action-circle">
-          <i class="fas fa-pencil-alt fa-lg"></i>
-        </span>
-        <span class="profile__action-title">Edit Profile</span>
+      <input type="text" placeholder="doingnone@gmail.com">
+      <div class="profile__actions">
+        <div class="profile__action">
+          <span class="profile__action-circle">
+            <i class="fas fa-comment fa-lg"></i>
+          </span>
+          <span class="profile__action-title">My Chatroom</span>
+        </div>
+        <div class="profile__action">
+          <span class="profile__action-circle">
+            <i class="fas fa-pencil-alt fa-lg"></i>
+          </span>
+          <span class="profile__action-title">Edit Profile</span>
+        </div>
       </div>
     </div>
-
   </main>
 </body>
 
