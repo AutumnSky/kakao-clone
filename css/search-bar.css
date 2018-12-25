@@ -9,9 +9,14 @@
     text-align: center;
     background-color: #f1f2f3;
     border-radius: 5px;
-    border: 0;
+    border: 1px solid transparent;
     box-sizing: border-box;
     padding: 5px 30px;
+    transition: border-color .3s ease-in-out;
+}
+
+.search-bar input:focus {
+    border-color: #ffe94a;
 }
 
 .search-bar input:focus {
