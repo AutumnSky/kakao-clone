@@ -1,0 +1,139 @@
+.chat-body {
+    background-color: #a1c0d6;
+    padding-bottom: 50px;
+}
+
+.chat-header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #a1c0d6;
+    color: inherit;
+}
+
+.chat-header a {
+    color: black;
+}
+
+.header__column .header__text {
+    font-weight: 600;
+}
+
+.date-divider {
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    color: rgb(92, 92, 92);
+}
+
+.chat {
+    padding: 0px 15px;
+}
+
+.chat__message {
+    margin-bottom: 15px;
+}
+
+.chat__message_me {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.chat__message-time {
+    font-size: 10px;
+    margin: 0 8px;
+    color: rgb(92, 92, 92);
+    align-self: flex-end;
+}
+
+.chat__message-body {
+    font-size: 14px;
+    color: black;
+    padding: 5px 8px;
+    border-radius: 3px;
+}
+
+.chat__message_me .chat__message-body {
+    background-color: #ffe934;
+}
+
+.chat__message_you {
+    display: flex;
+    align-items: flex-start;
+}
+
+.chat__message_you img {
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.chat__message_you .chat__message-center {
+    display: flex;
+    flex-direction: column;
+}
+
+.chat__message_you .chat__message-username {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.chat__message_you .chat__message-body {
+    background-color: white;
+}
+
+.type-message {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: #eeeeee;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.type-message .fa-plus {
+    color: rgb(92, 92, 92);
+    margin-right: 8px;
+}
+
+.type-message__input {
+    flex: 1;
+    height: 30px;
+    display: flex;
+    position: relative;
+}
+
+.type-message input {
+    flex: 1;
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 3px;
+}
+
+.type-message input:focus {
+    outline: none;
+}
+
+.type-message .fa-smile {
+    position: absolute;
+    right: 40px;
+    align-self: center;
+    font-size: 20px;
+    color: rgb(185, 185, 185);
+}
+
+.type-message .record-message {
+    background-color: #ffe934;
+    color: #523737;
+    align-self: stretch;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(185, 185, 185);
+    position: absolute;
+    right: 0;
+    height: 100%;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
