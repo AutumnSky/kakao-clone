@@ -6,11 +6,11 @@
     top: 0;
     left: 0;
     color: #523737;
-    display: flex;
+    /* always none just for me */
+    display: none;
     justify-content: center;
     align-items: center;
     font-weight: 600;
     font-size: 18px;
-    display: none;
     z-index: 3;
 }
